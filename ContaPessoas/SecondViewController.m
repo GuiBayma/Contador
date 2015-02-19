@@ -24,6 +24,8 @@
     contador = [Contador sharedInstance];
 }
 
+// delegate iOS - parecido com o observer para atualizar os resultados automaticamente
+// Ainda nāo implementado.
 - (void)viewDidAppear:(BOOL)animated{
     [self atualiza];
 }
@@ -34,12 +36,9 @@
     // Dispose of any resources that can be recreated.
 }
 
-
-// delegate iOS - parecido com o observer para atualizar os resultados automaticamente
-//Ainda nāo implementado.
-- (IBAction)click:(id)sender {
-    [self atualiza];
-}
+//- (IBAction)click:(id)sender {
+//    [self atualiza];
+//}
 
 -(void)atualiza {
     _totalBoys.text = [NSString stringWithFormat: @"%d", [contador getBoys]];

@@ -2,18 +2,19 @@
 //  ContadorTests.m
 //  ContaPessoas
 //
-//  Created by Vinicius Miana on 2/18/15.
+//  Created by Guilherme Bayma on 2/18/15.
 //  Copyright (c) 2015 Vinicius Miana. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface ContadorTests : XCTestCase
+
+@interface ContaPessoasTests : XCTestCase
 
 @end
 
-@implementation ContadorTests
+@implementation ContaPessoasTests
 
 - (void)setUp {
     [super setUp];

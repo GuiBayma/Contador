@@ -3,7 +3,7 @@
 //  ContaPessoas
 //
 //  Created by Guilherme Bayma on 2/18/15.
-//  Copyright (c) 2015 Guilherme Bayma. All rights reserved.
+//  Copyright (c) 2015 Vinicius Miana. All rights reserved.
 //
 
 #import "AppDelegate.h"

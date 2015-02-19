@@ -14,11 +14,11 @@
 		27A199B21A94B2A8008DC684 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27A199B01A94B2A8008DC684 /* Main.storyboard */; };
 		27A199B41A94B2A8008DC684 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27A199B31A94B2A8008DC684 /* Images.xcassets */; };
 		27A199B71A94B2A8008DC684 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27A199B51A94B2A8008DC684 /* LaunchScreen.xib */; };
-		27A199C31A94B2A8008DC684 /* ContaPessoasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A199C21A94B2A8008DC684 /* ContaPessoasTests.m */; };
+		27A199C31A94B2A8008DC684 /* ContadorTeste.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A199C21A94B2A8008DC684 /* ContadorTeste.m */; };
 		27A199CF1A94B4F3008DC684 /* girl.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A199CE1A94B4F3008DC684 /* girl.png */; };
 		27A199D11A94B501008DC684 /* boy.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A199D01A94B501008DC684 /* boy.png */; };
 		27A199D31A94D1FA008DC684 /* Contador.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A199D21A94D1FA008DC684 /* Contador.m */; };
-		27A199D61A94D821008DC684 /* ContadorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A199D51A94D821008DC684 /* ContadorTests.m */; };
+		27A199D61A94D821008DC684 /* ContaPessoasTestes.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A199D51A94D821008DC684 /* ContaPessoasTestes.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,12 +46,12 @@
 		27A199B61A94B2A8008DC684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		27A199BC1A94B2A8008DC684 /* ContaPessoasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContaPessoasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A199C11A94B2A8008DC684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		27A199C21A94B2A8008DC684 /* ContaPessoasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContaPessoasTests.m; sourceTree = "<group>"; };
+		27A199C21A94B2A8008DC684 /* ContadorTeste.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContadorTeste.m; sourceTree = "<group>"; };
 		27A199CE1A94B4F3008DC684 /* girl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girl.png; sourceTree = "<group>"; };
 		27A199D01A94B501008DC684 /* boy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boy.png; sourceTree = "<group>"; };
 		27A199D21A94D1FA008DC684 /* Contador.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contador.m; sourceTree = "<group>"; };
 		27A199D41A94D22B008DC684 /* Contador.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Contador.h; sourceTree = "<group>"; };
-		27A199D51A94D821008DC684 /* ContadorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContadorTests.m; sourceTree = "<group>"; };
+		27A199D51A94D821008DC684 /* ContaPessoasTestes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContaPessoasTestes.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,9 +123,9 @@
 		27A199BF1A94B2A8008DC684 /* ContaPessoasTests */ = {
 			isa = PBXGroup;
 			children = (
-				27A199C21A94B2A8008DC684 /* ContaPessoasTests.m */,
+				27A199C21A94B2A8008DC684 /* ContadorTeste.m */,
 				27A199C01A94B2A8008DC684 /* Supporting Files */,
-				27A199D51A94D821008DC684 /* ContadorTests.m */,
+				27A199D51A94D821008DC684 /* ContaPessoasTestes.m */,
 			);
 			path = ContaPessoasTests;
 			sourceTree = "<group>";
@@ -252,8 +252,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27A199C31A94B2A8008DC684 /* ContaPessoasTests.m in Sources */,
-				27A199D61A94D821008DC684 /* ContadorTests.m in Sources */,
+				27A199C31A94B2A8008DC684 /* ContadorTeste.m in Sources */,
+				27A199D61A94D821008DC684 /* ContaPessoasTestes.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +438,7 @@
 				27A199C81A94B2A8008DC684 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27A199C91A94B2A8008DC684 /* Build configuration list for PBXNativeTarget "ContaPessoasTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +447,7 @@
 				27A199CB1A94B2A8008DC684 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

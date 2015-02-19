@@ -2,7 +2,7 @@
 //  ContaPessoasTests.m
 //  ContaPessoasTests
 //
-//  Created by Vinicius Miana on 2/18/15.
+//  Created by Guilherme Bayma on 2/18/15.
 //  Copyright (c) 2015 Vinicius Miana. All rights reserved.
 //
 
@@ -10,17 +10,20 @@
 #import <XCTest/XCTest.h>
 #import "Contador.h"
 
-@interface ContaPessoasTests : XCTestCase
+@interface ContadorTests : XCTestCase
 
 @end
 
-@implementation ContaPessoasTests
+@implementation ContadorTests
 
+// testes
 
 - (void)testContaMeninos {
     Contador *c = [[Contador alloc] init];
     [c maisUmCueca];
     XCTAssert(([c getBoys] == 1), @"Pass");
+    XCTAssert(([c getGirls] == 0), @"Pass");
+    XCTAssert(([c getTotal] == 1), @"Pass");
 }
 
 - (void)testContaMeninas {
@@ -28,6 +31,7 @@
     [c maisUmaGata];
     XCTAssert(([c getGirls] == 1), @"Pass");
     XCTAssert(([c getBoys] == 0), @"Pass");
+    XCTAssert(([c getGirls] == 1), @"Pass");
 }
 
 

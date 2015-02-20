@@ -134,8 +134,6 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="6b6-vQ-wc3"/>
-                                <exclude reference="T35-Yw-QFv"/>
                                 <exclude reference="7Hh-1X-ZwO"/>
                                 <exclude reference="9pc-Di-hGW"/>
                                 <exclude reference="Blf-oD-toZ"/>
@@ -143,6 +141,8 @@
                                 <exclude reference="Z9F-Us-K9U"/>
                                 <exclude reference="oAg-PH-a0g"/>
                                 <exclude reference="vdr-dd-KNm"/>
+                                <exclude reference="6b6-vQ-wc3"/>
+                                <exclude reference="T35-Yw-QFv"/>
                                 <exclude reference="1yC-Bf-vVE"/>
                                 <exclude reference="oGF-sc-9WW"/>
                                 <exclude reference="uSw-GS-5hh"/>
@@ -325,15 +325,6 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wdw-cL-Bgf">
-                                <rect key="frame" x="299" y="406" width="54" height="30"/>
-                                <state key="normal" title="Atualiza">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="click:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="Wmf-Ss-Ora"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -383,9 +374,6 @@
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
-                            <mask key="subviews">
-                                <exclude reference="Wdw-cL-Bgf"/>
-                            </mask>
                             <mask key="constraints">
                                 <include reference="26H-6m-IKg"/>
                                 <exclude reference="KWR-09-zTG"/>

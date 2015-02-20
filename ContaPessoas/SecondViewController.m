@@ -10,8 +10,7 @@
 #import "Contador.h"
 
 @interface SecondViewController () {
-    
-    // singleton
+
       Contador *contador;
 }
 
@@ -22,11 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     contador = [Contador sharedInstance];
-}
-
-// delegate iOS - parecido com o observer para atualizar os resultados automaticamente
-// Ainda nāo implementado.
-- (void)viewDidAppear:(BOOL)animated{
+    contador.delegate = self;
     [self atualiza];
 }
 
@@ -35,10 +30,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-//- (IBAction)click:(id)sender {
-//    [self atualiza];
-//}
 
 -(void)atualiza {
     _totalBoys.text = [NSString stringWithFormat: @"%d", [contador getBoys]];

@@ -9,10 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "Contador.h"
 
-@interface Contador()
-
-@end
-
 @implementation Contador {
     int boy;
     int girl;
@@ -38,9 +34,11 @@
 
 - (void)maisUmCueca {
     boy = boy + 1;
+    [_delegate atualiza];
 }
 - (void)maisUmaGata {
     girl++;
+    [_delegate atualiza];
 }
 
 -(int)getBoys {
@@ -55,6 +53,4 @@
     return boy+girl;
 }
 
-
 @end
-

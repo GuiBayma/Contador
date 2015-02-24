@@ -25,7 +25,6 @@
     [self atualiza];
 }
 
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -38,4 +37,7 @@
 }
 
 
+- (IBAction)botaoZerar:(id)sender {
+    [contador zerar];
+}
 @end

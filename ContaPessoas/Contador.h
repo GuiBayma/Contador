@@ -8,7 +8,6 @@
 
 @protocol Mostrador <NSObject>
 
-@required
 - (void) atualiza;
 
 @end
@@ -19,12 +18,12 @@
 
 - (void)maisUmCueca;
 - (void)maisUmaGata;
+- (void)zerar;
 
-@property (nonatomic,assign) id <Mostrador> delegate;
+@property (nonatomic,weak) id <Mostrador> delegate;
 
 -(int)getBoys;
 -(int)getGirls;
 -(int)getTotal;
 
 @end
-

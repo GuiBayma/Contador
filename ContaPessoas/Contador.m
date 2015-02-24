@@ -41,6 +41,11 @@
     [_delegate atualiza];
 }
 
+-(void)zerar {
+    boy = girl = 0;
+    [_delegate atualiza];
+}
+
 -(int)getBoys {
     return boy;
 }
